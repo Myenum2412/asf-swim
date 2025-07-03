@@ -293,7 +293,7 @@ export default function HomePage() {
               }`}
             >
               <Image
-                src={slide.image || "/swim.jpg"}
+                src={"/swim.jpg"}
                 alt={slide.title}
                 fill
                 className="object-cover"
@@ -367,7 +367,7 @@ export default function HomePage() {
         </div>
 
         {/* Navigation Controls */}
-        <button
+        {/* <button
           onClick={prevSlide}
           className="absolute left-8 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center text-white transition-all duration-300 backdrop-blur-sm"
           aria-label="Previous slide"
@@ -381,7 +381,7 @@ export default function HomePage() {
           aria-label="Next slide"
         >
           <ChevronRight className="h-6 w-6" />
-        </button>
+        </button> */}
 
         {/* Slide Indicators */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-3">
